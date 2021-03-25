@@ -40,7 +40,7 @@ const Add = (props) => {
           fullWidth
           value={name}
         />
-         <StyledButton type="submit" variant="contained" size="large" color="primary " >
+         <StyledButton type="submit" variant="contained" size="large" color="primary" >
           cancel
         </StyledButton>
         <StyledButton type="submit" variant="contained" color="primary" size="large" disabled={name.trim() === ""} >
